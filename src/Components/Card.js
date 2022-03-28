@@ -48,12 +48,11 @@ const Card = props =>{
                 <h3>Card Holder Name</h3>
                 <input type="text" onChange={ (e) => setCardHolder(e.target.value) } />
                 <h3>Card Number</h3>
-                <input name="credit-number" class="cc-number" type="tel" pattern="\d*" maxlength="19" placeholder="Card Number"/>
                 <input type="text" onChange={ (e) => {setNumber(e.target.value); numberHandler()}}/>
                 <h3>Expiration Date</h3>
                 <input type="month" onChange={ (e) => setExpDate(e.target.value) } />
                 <h3>CVC</h3>
-                <input type="password" onChange={ (e) => setCvc(e.target.value) } />
+                <input type="password" maxlength="3" onChange={ (e) => setCvc(e.target.value) } />
             </div>
 
 
