@@ -15,12 +15,12 @@ const Card = props =>{
         setFlag("https://www.superiorlawncareusa.com/wp-content/uploads/2020/05/loading-gif-png-5.gif")
 
         if(number[0]=== "4"){
-            setFlagWidth("100px")
+            setFlagWidth("80px")
             setFlag("https://i.imgur.com/2aNFArA.png")
         }
         if(number[0]=== "5"){
-            setFlagWidth("100px")
-            setFlag("https://i.imgur.com/Q7c6QUp.png")
+            setFlagWidth("80px")
+            setFlag("https://i.imgur.com/Djq8urj.png")
         }
     }
 
@@ -28,19 +28,28 @@ const Card = props =>{
 
         <div className='boddy'>
             <div className='card'>
-                <h2 className=' cardHolder dataCard'>
-                    {cardHolder}
-                </h2>
                 <h2 className='number dataCard'>
                     {number}
                 </h2>
+                <div className=''>
+
+                </div>
+
                 <h2 className='expDate dataCard'>
                     {expDate}
                 </h2>
-                <h2 className='cvc dataCard'>
-                    {cvc}
-                </h2>
-                <img className='flag' src={flag} width={flagWidth}></img>
+
+                <div className='cardBox'>
+
+                    <h2 className=' cardHolder dataCard'>
+                        {cardHolder}
+                    </h2>
+
+
+
+                    <img className='flag' src={flag} width={flagWidth} ></img>
+
+                </div>
 
             </div>
 
