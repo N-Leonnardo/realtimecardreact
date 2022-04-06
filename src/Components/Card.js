@@ -55,9 +55,9 @@ const Card = props =>{
 
             <div className='cardInfo'>
                 <h3>Card Holder Name</h3>
-                <input type="text" onChange={ (e) => setCardHolder(e.target.value) } />
+                <input type="text" maxlength="24" onChange={ (e) => setCardHolder(e.target.value) } />
                 <h3>Card Number</h3>
-                <input type="text" onChange={ (e) => {setNumber(e.target.value); numberHandler()}}/>
+                <input type="text" maxlength="22" onChange={ (e) => {setNumber(e.target.value); numberHandler()}}/>
                 <h3>Expiration Date</h3>
                 <input type="month" onChange={ (e) => setExpDate(e.target.value) } />
                 <h3>CVC</h3>
