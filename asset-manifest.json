@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/realtimecardreact/static/css/main.fb3c7644.css",
+    "main.js": "/realtimecardreact/static/js/main.28eb85d8.js",
+    "static/js/787.a693d400.chunk.js": "/realtimecardreact/static/js/787.a693d400.chunk.js",
+    "index.html": "/realtimecardreact/index.html",
+    "main.fb3c7644.css.map": "/realtimecardreact/static/css/main.fb3c7644.css.map",
+    "main.28eb85d8.js.map": "/realtimecardreact/static/js/main.28eb85d8.js.map",
+    "787.a693d400.chunk.js.map": "/realtimecardreact/static/js/787.a693d400.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb3c7644.css",
+    "static/js/main.28eb85d8.js"
+  ]
+}
